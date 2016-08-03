@@ -1,0 +1,28 @@
+#ifndef QUANTIFICATION_H
+#define QUANTIFICATION_H
+
+#include <cmath>
+#include <iostream>
+#include <vector>
+#include <iterator>
+#include <cstdlib>
+
+
+	class Quantification
+	{
+	protected :
+		int m_M;// size of thr quantification
+		int m_r;// dimension 
+
+	public:
+		Quantification(int M, int r=1): m_M(M), m_r(r){};
+		double* Uniforme();// return a vector of a uniform r.v. quantified
+		double * get_probability();// return a vector of probabilities associated to the vector from Uniform()
+		double  Uniforme(int j); // return the jth term of Uniforme() 
+		int get_size(); // return m_M
+		double get_probability(int i); // return the jth term of get_probability()
+		double ** get_quantif();// return a quantification of a r.v. with m_M possible values
+		double get_quantif(int i, int j);
+	};
+
+#endif

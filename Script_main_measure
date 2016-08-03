@@ -1,0 +1,1 @@
+g++ Sinus.cpp Random.cpp main_measure.cpp Diffusion1d.cpp Gaussian.cpp Constant.cpp  DeuxX.cpp BLineaire.cpp Bernoulli.cpp XBeta.cpp Quantification.cpp Density.cpp Cosinus.cpp -o Source

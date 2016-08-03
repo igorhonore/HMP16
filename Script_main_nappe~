@@ -1,0 +1,2 @@
+g++ Sinus.cpp Random.cpp main_nappe.cpp Diffusion1d.cpp Gaussian.cpp Constant.cpp DeuxX.cpp BLineaire.cpp Bernoulli.cpp XBeta.cpp Quantification.cpp Density.cpp Cosinus.cpp Cosinus2.cpp Xcosinus.cpp -o Source
+mkdir Result_nappe
