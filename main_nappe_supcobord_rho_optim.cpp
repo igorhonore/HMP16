@@ -71,6 +71,7 @@ int main()
 	for(k=0;k<nb_theta+1; k++)
 	{
 		theta=theta_min*(double(nb_theta)-k)/(double(nb_theta))+theta_max*k/(double(nb_theta));// the current theta of the napp
+		Gamma=0;
 		for (j = 1; j < n + 1; j++)
 			Gamma = Gamma + pow(double(j), -theta);
 
